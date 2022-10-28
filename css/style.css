@@ -1,8 +1,8 @@
 .sunnyside-header {
   background: url(/images/desktop/image-header.jpg) bottom/100% no-repeat,
     var(--bright-blue--header);
-  padding: 3.5rem 3.5rem 32rem 3.5rem;
-  height: 100vh;
+  padding: 3.5rem 3.5rem 33rem 3.5rem;
+  /* height: 100vh; */
 
   text-align: center;
 }
@@ -15,7 +15,7 @@
   margin-bottom: 10rem;
 }
 
-.heaver-nav__logo-box svg {
+.header-nav__logo-box svg {
   width: 17.5rem;
   color: var(--white);
 }
@@ -61,7 +61,6 @@
 .grid-hero-2x2 {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: repeat(2, 1fr);
 }
 
 /* .hero-transform--image,
@@ -178,7 +177,6 @@
 .heading-testimonials {
   text-transform: uppercase;
   color: var(--grayish-blue);
-  text-align: center;
   font-size: 2rem;
   letter-spacing: 8px;
 

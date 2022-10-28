@@ -3,7 +3,6 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- displays site properly based on user's device -->
 
     <link
       rel="icon"
@@ -14,13 +13,14 @@
 
     <link rel="stylesheet" href="css/general.css" />
     <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/queries.css" />
 
     <title>Frontend Mentor | Sunnyside agency landing page</title>
   </head>
   <body>
     <header class="sunnyside-header">
       <div class="header-nav">
-        <div class="heaver-nav__logo-box">
+        <div class="header-nav__logo-box">
           <svg
             width="180"
             height="44"
@@ -44,46 +44,53 @@
         </div>
       </div>
 
-      <h1 class="heading-primary">We are creatives</h1>
+      <div class="centered-container">
+        <h1 class="heading-primary">We are creatives</h1>
 
-      <div class="header-img">
-        <img src="/images/icon-arrow-down.svg" alt="" />
+        <div class="header-img">
+          <img src="/images/icon-arrow-down.svg" alt="" />
+        </div>
       </div>
     </header>
 
     <section class="section-hero grid-hero-2x2">
       <div class="hero-cell hero-transform">
-        <h2 class="heading-secondary">Transform your brand</h2>
-        <div class="hero-text">
-          We are a full-service creative agency specializing in helping brands
-          grow fast. Engage your clients through compelling visuals that do most
-          of the marketing for you.
-        </div>
+        <div class="centered-container">
+          <h2 class="heading-secondary">Transform your brand</h2>
+          <p class="hero-text">
+            We are a full-service creative agency specializing in helping brands
+            grow fast. Engage your clients through compelling visuals that do
+            most of the marketing for you.
+          </p>
 
-        <a class="hero-button yellow" href="#">
-          <div class="hero-button--label">Learn more</div>
-          <!-- <div class="hero-button--line"></div> -->
-        </a>
+          <a class="hero-button yellow" href="#">
+            <div class="hero-button--label">Learn more</div>
+            <!-- <div class="hero-button--line"></div> -->
+          </a>
+        </div>
       </div>
-      <div class="hero-transform--image">
+
+      <div class="hero-transform--image hero-cell--image">
         <!-- <img src="/images/desktop/image-transform.jpg" alt="" /> -->
 
         &nbsp;
       </div>
 
-      <div class="hero-standout--image">
+      <div class="hero-standout--image hero-cell--image">
         <!-- <img src="/images/desktop/image-stand-out.jpg" alt="" /> -->
 
         &nbsp;
       </div>
       <div class="hero-cell hero-standout">
-        <h2 class="heading-secondary">Stand out to the right audience</h2>
-        <div class="hero-text">
-          Using a collaborative formula of designers, researchers,
-          photographers, videographers, and copywriters, we’ll build and extend
-          your brand in digital places.
+        <div class="centered-container">
+          <h2 class="heading-secondary">Stand out to the right audience</h2>
+          <p class="hero-text">
+            Using a collaborative formula of designers, researchers,
+            photographers, videographers, and copywriters, we’ll build and
+            extend your brand in digital places.
+          </p>
+          <a class="hero-button red" href="#">Learn more</a>
         </div>
-        <a class="hero-button red" href="#">Learn more </a>
       </div>
     </section>
 
@@ -108,35 +115,37 @@
     <section class="section-testimonials">
       <h3 class="heading-testimonials">Client testimonials</h3>
 
-      <div class="testimonials-container testimonials-grid-3-cols">
-        <div class="testimonial-box">
-          <img src="/images/image-emily.jpg" alt="" />
-          <p class="testimonial-text">
-            We put our trust in Sunnyside and they delivered, making sure our
-            needs were met and deadlines were always hit.
-          </p>
-          <p class="testimonial-name">Emily R.</p>
-          <p class="testimonial-job">Marketing Director</p>
-        </div>
+      <div class="centered-container">
+        <div class="testimonials-container testimonials-grid-3-cols">
+          <div class="testimonial-box">
+            <img src="/images/image-emily.jpg" alt="" />
+            <p class="testimonial-text">
+              We put our trust in Sunnyside and they delivered, making sure our
+              needs were met and deadlines were always hit.
+            </p>
+            <p class="testimonial-name">Emily R.</p>
+            <p class="testimonial-job">Marketing Director</p>
+          </div>
 
-        <div class="testimonial-box">
-          <img src="/images/image-thomas.jpg" alt="" />
-          <p class="testimonial-text">
-            Sunnyside’s enthusiasm coupled with their keen interest in our
-            brand’s success made it a satisfying and enjoyable experience.
-          </p>
-          <p class="testimonial-name">Thomas S.</p>
-          <p class="testimonial-job">Chief Operating Officer</p>
-        </div>
+          <div class="testimonial-box">
+            <img src="/images/image-thomas.jpg" alt="" />
+            <p class="testimonial-text">
+              Sunnyside’s enthusiasm coupled with their keen interest in our
+              brand’s success made it a satisfying and enjoyable experience.
+            </p>
+            <p class="testimonial-name">Thomas S.</p>
+            <p class="testimonial-job">Chief Operating Officer</p>
+          </div>
 
-        <div class="testimonial-box">
-          <img src="/images/image-jennie.jpg" alt="" />
-          <p class="testimonial-text">
-            Incredible end result! Our sales increased over 400% when we worked
-            with Sunnyside. Highly recommended!
-          </p>
-          <p class="testimonial-name">Jennie F.</p>
-          <p class="testimonial-job">Business Owner</p>
+          <div class="testimonial-box">
+            <img src="/images/image-jennie.jpg" alt="" />
+            <p class="testimonial-text">
+              Incredible end result! Our sales increased over 400% when we
+              worked with Sunnyside. Highly recommended!
+            </p>
+            <p class="testimonial-name">Jennie F.</p>
+            <p class="testimonial-job">Business Owner</p>
+          </div>
         </div>
       </div>
     </section>
@@ -169,7 +178,6 @@
           <a class="footer-link" href="#">About</a>
           <a class="footer-link" href="#">Services </a>
           <a class="footer-link" href="#">Projects</a>
-          <a class="footer-link" href="#">Contact</a>
         </div>
 
         <div class="footer-socials">
@@ -189,11 +197,11 @@
       </div>
     </footer>
 
-    <!-- <footer>
+    <!-- <div>
       Challenge by
       <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
         >Frontend Mentor</a
       >. Coded by <a href="#">Your Name Here</a>.
-    </footer> -->
+    </div> -->
   </body>
 </html>
