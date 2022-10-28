@@ -58,7 +58,7 @@
   }
 
   .sunnyside-header {
-    background: url(/images/mobile/image-header.jpg) bottom/100% no-repeat,
+    background: url(../images/mobile/image-header.jpg) bottom/100% no-repeat,
       var(--bright-blue--header);
     padding: 0 0 15rem;
   }

@@ -1,5 +1,5 @@
 .sunnyside-header {
-  background: url(/images/desktop/image-header.jpg) bottom/100% no-repeat,
+  background: url(../images/desktop/image-header.jpg) bottom/100% no-repeat,
     var(--bright-blue--header);
   padding: 3.5rem 3.5rem 33rem 3.5rem;
   /* height: 100vh; */
