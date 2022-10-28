@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@600&family=Fraunces:opsz,wght@9..144,700;9..144,900&display=swap');
+
+:root {
+  /* Colors - Primary */
+
+  --bright-blue--header: hsl(200, 100%, 62%);
+  --soft-red: hsl(7, 99%, 70%);
+  --yellow: hsl(51, 100%, 49%);
+  --dark-desaturated-cyan--graphic-design-text: #25564b;
+  --dark-blue--photography-text: hsl(198, 62%, 26%);
+  --dark-moderate-cyan--footer: #2c7566;
+  --footer-bkg: #90d4c5;
+
+  /* Colors - Neutral */
+
+  --very-dark-desaturated-blue: hsl(212, 27%, 19%);
+  --very-dark-grayish-blue: hsl(213, 9%, 39%);
+  --dark-grayish-blue: hsl(232, 10%, 55%);
+  --grayish-blue: hsl(210, 4%, 67%);
+  --white: hsl(0, 0%, 100%);
+}
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  transition: all 0.3s ease-in-out;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: 'Barlow', sans-serif;
+  color: var(--very-dark-desaturated-blue);
+}
+
+a {
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3 {
+  font-family: 'Fraunces', serif;
+  font-weight: 900;
+}
+
+.heading-primary {
+  font-size: 5.5rem;
+
+  color: var(--white);
+  letter-spacing: 1rem;
+  text-transform: uppercase;
+
+  margin-bottom: 9rem;
+}
+
+.heading-secondary {
+  font-size: 4rem;
+  color: var(--very-dark-desaturated-blue);
+
+  margin-bottom: 3rem;
+}
