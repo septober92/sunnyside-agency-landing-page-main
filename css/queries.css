@@ -88,8 +88,9 @@
     left: 6.7%;
     width: 87%;
     height: 35%;
+    /* transform: translateX(-50%); */
 
-    transform: translateY(-100%);
+    /* transform: translateY(-100%); */
 
     display: flex;
     align-items: center;
@@ -129,14 +130,6 @@
     opacity: 0.7;
   }
 
-  /* .nav-open .icon-mobile-nav[name='close-outline'] {
-    display: block;
-  }
-
-  .nav-open .icon-mobile-nav[name='menu-outline'] {
-    display: none;
-  } */
-
   .main-nav-list {
     flex-direction: column;
     gap: 3.8rem;
@@ -152,7 +145,6 @@
   .header-nav-link--contact:visited {
     color: var(--very-dark-desaturated-blue);
     background-color: var(--yellow);
-    /* font-size: 2.2rem; */
   }
 
   .heading-primary {
