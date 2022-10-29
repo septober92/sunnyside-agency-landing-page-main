@@ -87,7 +87,7 @@
     top: 15%;
     left: 6.7%;
     width: 87%;
-    height: 35%;
+    /* height: 35%; */
 
     display: flex;
     align-items: center;
@@ -108,7 +108,7 @@
     position: absolute;
     top: 100%;
     left: 20px;
-    top: -9%;
+    top: -8.5%;
     left: 92%;
     border-bottom: 30px solid #fff;
     border-bottom-color: inherit;
@@ -130,6 +130,7 @@
   .main-nav-list {
     flex-direction: column;
     gap: 3.8rem;
+    padding: 5rem 0;
   }
 
   .header-nav-link:link,
